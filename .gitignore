@@ -1,0 +1,18 @@
+node_modules/
+client/node_modules/
+server/node_modules/
+.env
+server/.env
+client/.env
+nlp_service/.env
+
+# --- Python & NLP Service ---
+nlp_service/__pycache__/
+nlp_service/venv/
+nlp_service/env/
+.venv/
+*.pyc
+
+# --- OS Specific Files ---
+.DS_Store
+Thumbs.db
